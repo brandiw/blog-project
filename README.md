@@ -1,10 +1,9 @@
-const allComments = p.comments.map(c => <Comment body={c} />);
-      const allAuthors = p.authors.map(a => <Author name={a} />);
-      return (
-          <div>
-            <h2>{p.title}</h2>
-            {allAuthors}
-            {allComments}
-            <hr />
-          </div>
-        )
+# Dino Blog Project
+
+In-class example for IQVIA.
+
+## Concepts Covered
+
+* Nested Components
+* Using Props
+* Using State
